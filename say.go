@@ -1,7 +1,8 @@
-package main
+package gomodone
 
 import "fmt"
 
-func main() {
-	fmt.Println("hello world")
+// say Hi to someone
+func SayHi(name string) string {
+	return fmt.Sprintf("Hi, %s", name)
 }
